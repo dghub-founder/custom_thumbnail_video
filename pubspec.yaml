@@ -5,17 +5,18 @@ homepage:
 repository: https://github.com/Alberto-Monteiro/video_thumbnail
 
 environment:
-  sdk: ^3.4.0
-  flutter: ^3.22.0
+  sdk: ">=2.19.5 <4.0.0"
+  flutter: ^3.3.0
 
 dependencies:
+  # cross_file: ^0.3.0
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  web: ^1.1.0
-  plugin_platform_interface: ^2.1.8
-  cross_file: ^0.3.4+2
+  # web: ^0.3.0
+  plugin_platform_interface: ^2.1.6
+  cross_file: ^0.3.3+2
 
 dev_dependencies:
   flutter_test:
